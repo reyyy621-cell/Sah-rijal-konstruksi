@@ -5,7 +5,7 @@ export const COMPANY_INFO = {
   brand: "Sah Rijal Konstruksi",
   address: "jln.ceger raya, kec.pondok aren",
   whatsapp1: "+6283804081694",
-  whatsapp2: "+6283804081694",
+  whatsapp2: "+6287784270674",
   email: "ptbintangutamaperkasasejahtera@gmail.com",
   serviceAreas: ["Surabaya", "Sidoarjo", "Gresik", "Jawa Timur"],
   instagram: "https://www.instagram.com/berkah_rizal_konstruksi?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==",
