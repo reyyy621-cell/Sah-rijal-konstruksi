@@ -213,14 +213,14 @@ export default function InteriorMepCalculator() {
         
         {/* Main Box Header */}
         <div className="text-center max-w-2xl mx-auto mb-10 space-y-3" id="imep-header">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ INTERIOR & MEP ESTIMATOR
           </span>
           <h2 className="font-sans font-bold text-2xl sm:text-3xl text-[#16233A] uppercase tracking-tight">
             Kalkulator RAB Interior & MEP Pro
           </h2>
           <div className="h-1 w-16 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-xs sm:text-sm text-gray-500">
+          <p className="font-sans text-xs sm:text-sm text-gray-700">
             Dapatkan estimasi Rencana Anggaran Biaya pengerjaan arsitektur sipil, instalasi MEP (Mekanikal Elektrikal Plumbing) real-time dengan spesifikasi material dinamis.
           </p>
         </div>
@@ -247,13 +247,13 @@ export default function InteriorMepCalculator() {
                     onClick={() => index + 1 < step || step === 5 ? setStep(index + 1) : null}
                     className={`h-8 w-8 rounded-full font-mono text-xs font-bold flex items-center justify-center transition-all duration-300 cursor-pointer ${
                       active 
-                        ? 'bg-[#C89A2B] text-white ring-4 ring-amber-50' 
-                        : 'bg-gray-100 text-gray-400 border border-gray-200'
+                        ? 'bg-[#C89A2B]  text-[#16233A] ring-4 ring-amber-50' 
+                        : 'bg-gray-100 text-gray-600 border border-gray-200'
                     } ${current ? 'scale-110 !bg-[#16233A]' : ''}`}
                   >
                     {step > index + 1 ? <Check className="h-4 w-4" /> : index + 1}
                   </button>
-                  <span className="hidden sm:block text-[10px] font-sans font-semibold uppercase mt-2 text-gray-500 tracking-wider">
+                  <span className="hidden sm:block text-[10px] font-sans font-semibold uppercase mt-2 text-gray-700 tracking-wider">
                     {title}
                   </span>
                 </div>
@@ -276,7 +276,7 @@ export default function InteriorMepCalculator() {
                   <h3 className="font-sans font-bold text-[#16233A] text-lg uppercase tracking-wide">
                     Tahap 1: Dimensi Utama Ruangan
                   </h3>
-                  <p className="text-gray-500 text-xs mt-1">
+                  <p className="text-gray-700 text-xs mt-1">
                     Silakan tentukan dimensi panjang, lebar, dan tinggi plafond ruangan untuk pemicu perhitungan volume pekerjaan dinding dan lantai.
                   </p>
                 </div>
@@ -296,7 +296,7 @@ export default function InteriorMepCalculator() {
                       onChange={(e) => setLength(Math.max(1, parseFloat(e.target.value) || 0))}
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400 font-mono text-base"
                     />
-                    <p className="text-[10px] text-gray-400">Contoh: 5 meter</p>
+                    <p className="text-[10px] text-gray-600">Contoh: 5 meter</p>
                   </div>
 
                   {/* Lebar */}
@@ -313,7 +313,7 @@ export default function InteriorMepCalculator() {
                       onChange={(e) => setWidth(Math.max(1, parseFloat(e.target.value) || 0))}
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400 font-mono text-base"
                     />
-                    <p className="text-[10px] text-gray-400">Contoh: 4 meter</p>
+                    <p className="text-[10px] text-gray-600">Contoh: 4 meter</p>
                   </div>
 
                   {/* Tinggi Plafond */}
@@ -330,7 +330,7 @@ export default function InteriorMepCalculator() {
                       onChange={(e) => setCeiling(Math.max(2, parseFloat(e.target.value) || 0))}
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-400 font-mono text-base"
                     />
-                    <p className="text-[10px] text-gray-400">Contoh: 3 meter</p>
+                    <p className="text-[10px] text-gray-600">Contoh: 3 meter</p>
                   </div>
                 </div>
 
@@ -343,7 +343,7 @@ export default function InteriorMepCalculator() {
                       Volume Dinding Kotor: <strong>{volumeDindingKotor.toFixed(2)} m²</strong> | Volume Lantai: <strong>{volumeLantai.toFixed(2)} m²</strong>
                     </span>
                   </div>
-                  <Calculator className="h-6 w-6 text-[#C89A2B] shrink-0 hidden sm:block" />
+                  <Calculator className="h-6 w-6 text-[#9A721D] shrink-0 hidden sm:block" />
                 </div>
               </div>
             )}
@@ -355,7 +355,7 @@ export default function InteriorMepCalculator() {
                   <h3 className="font-sans font-bold text-[#16233A] text-lg uppercase tracking-wide">
                     Tahap 2: Pekerjaan Arsitektur & Dinding
                   </h3>
-                  <p className="text-gray-500 text-xs mt-1">
+                  <p className="text-gray-700 text-xs mt-1">
                     Pilih pekerjaan apa saja yang akan diproses. Geser slider untuk menyesuaikan kualitas & harga material yang diinginkan.
                   </p>
                 </div>
@@ -370,20 +370,20 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={plesterAciEnabled}
                           onChange={(e) => setPlesterAciEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-plester" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Plester & Aci Dinding
                         </label>
                       </div>
-                      <span className="font-mono text-xs text-gray-500">
+                      <span className="font-mono text-xs text-gray-700">
                         Vol: {volumeDindingKotor.toFixed(2)} m²
                       </span>
                     </div>
 
                     {plesterAciEnabled && (
                       <div className="space-y-2 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Satuan:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(plesterAciPrice)}/m²</span>
                         </div>
@@ -396,7 +396,7 @@ export default function InteriorMepCalculator() {
                           onChange={(e) => setPlesterAciPrice(parseInt(e.target.value))}
                           className="w-full accent-[#C89A2B]"
                         />
-                        <div className="flex justify-between text-[10px] font-mono text-gray-400">
+                        <div className="flex justify-between text-[10px] font-mono text-gray-600">
                           <span>Standard (Rp 50rb)</span>
                           <span>Premium (Rp 150rb)</span>
                         </div>
@@ -413,20 +413,20 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={pengecatanEnabled}
                           onChange={(e) => setPengecatanEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-pengecatan" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Pengecatan Dinding
                         </label>
                       </div>
-                      <span className="font-mono text-xs text-gray-500">
+                      <span className="font-mono text-xs text-gray-700">
                         Vol: {volumeDindingKotor.toFixed(2)} m²
                       </span>
                     </div>
 
                     {pengecatanEnabled && (
                       <div className="space-y-2 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Satuan:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(pengecatanPrice)}/m²</span>
                         </div>
@@ -439,7 +439,7 @@ export default function InteriorMepCalculator() {
                           onChange={(e) => setPengecatanPrice(parseInt(e.target.value))}
                           className="w-full accent-[#C89A2B]"
                         />
-                        <div className="flex justify-between text-[10px] font-mono text-gray-400">
+                        <div className="flex justify-between text-[10px] font-mono text-gray-600">
                           <span>Kebutuhan Dasar (Rp 25rb)</span>
                           <span>Eksklusif Jotun (Rp 80rb)</span>
                         </div>
@@ -456,20 +456,20 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={keramikLantaiEnabled}
                           onChange={(e) => setKeramikLantaiEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-keramik" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Pemasangan Keramik Lantai
                         </label>
                       </div>
-                      <span className="font-mono text-xs text-gray-500">
+                      <span className="font-mono text-xs text-gray-700">
                         Vol: {volumeLantai.toFixed(2)} m²
                       </span>
                     </div>
 
                     {keramikLantaiEnabled && (
                       <div className="space-y-2 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Satuan:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(keramikLantaiPrice)}/m²</span>
                         </div>
@@ -482,7 +482,7 @@ export default function InteriorMepCalculator() {
                           onChange={(e) => setKeramikLantaiPrice(parseInt(e.target.value))}
                           className="w-full accent-[#C89A2B]"
                         />
-                        <div className="flex justify-between text-[10px] font-mono text-gray-400">
+                        <div className="flex justify-between text-[10px] font-mono text-gray-600">
                           <span>Keramik Lokal 40x40 (Rp 100rb)</span>
                           <span>Granit Tile 60x60 (Rp 350rb)</span>
                         </div>
@@ -500,7 +500,7 @@ export default function InteriorMepCalculator() {
                   <h3 className="font-sans font-bold text-[#16233A] text-lg uppercase tracking-wide">
                     Tahap 3: Bongkaran & Kusen Pintu
                   </h3>
-                  <p className="text-gray-500 text-xs mt-1">
+                  <p className="text-gray-700 text-xs mt-1">
                     Silakan tentukan ukuran pintu untuk menghitung pengerjaan finishing cat kusen dan pekerjaan bongkar lantai lama.
                   </p>
                 </div>
@@ -508,7 +508,7 @@ export default function InteriorMepCalculator() {
                 {/* Door specs variables */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-5 bg-white border border-gray-150 rounded-2xl shadow-sm">
                   <div className="space-y-1.5">
-                    <label htmlFor="pintu-jml" className="font-sans font-semibold text-xs text-gray-500 uppercase">Jumlah Pintu</label>
+                    <label htmlFor="pintu-jml" className="font-sans font-semibold text-xs text-gray-700 uppercase">Jumlah Pintu</label>
                     <input
                       id="pintu-jml"
                       type="number"
@@ -519,7 +519,7 @@ export default function InteriorMepCalculator() {
                     />
                   </div>
                   <div className="space-y-1.5">
-                    <label htmlFor="pintu-lbr" className="font-sans font-semibold text-xs text-gray-500 uppercase">Lebar Pintu (m)</label>
+                    <label htmlFor="pintu-lbr" className="font-sans font-semibold text-xs text-gray-700 uppercase">Lebar Pintu (m)</label>
                     <input
                       id="pintu-lbr"
                       type="number"
@@ -531,7 +531,7 @@ export default function InteriorMepCalculator() {
                     />
                   </div>
                   <div className="space-y-1.5">
-                    <label htmlFor="pintu-tgi" className="font-sans font-semibold text-xs text-gray-500 uppercase">Tinggi Pintu (m)</label>
+                    <label htmlFor="pintu-tgi" className="font-sans font-semibold text-xs text-gray-700 uppercase">Tinggi Pintu (m)</label>
                     <input
                       id="pintu-tgi"
                       type="number"
@@ -543,7 +543,7 @@ export default function InteriorMepCalculator() {
                     />
                   </div>
                   <div className="space-y-1.5">
-                    <label htmlFor="pintu-cat" className="font-sans font-semibold text-xs text-gray-500 uppercase">Finishing Kusen</label>
+                    <label htmlFor="pintu-cat" className="font-sans font-semibold text-xs text-gray-700 uppercase">Finishing Kusen</label>
                     <select
                       id="pintu-cat"
                       value={doorPaintSpec}
@@ -567,20 +567,20 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={bongkarLantaiEnabled}
                           onChange={(e) => setBongkarLantaiEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-bongkar" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Bongkar Lantai Lama
                         </label>
                       </div>
-                      <span className="font-mono text-xs text-gray-500">
+                      <span className="font-mono text-xs text-gray-700">
                         Vol: {volumeLantai.toFixed(2)} m²
                       </span>
                     </div>
 
                     {bongkarLantaiEnabled && (
                       <div className="space-y-2 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Bongkar:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(bongkarLantaiPrice)}/m²</span>
                         </div>
@@ -593,7 +593,7 @@ export default function InteriorMepCalculator() {
                           onChange={(e) => setBongkarLantaiPrice(parseInt(e.target.value))}
                           className="w-full accent-[#C89A2B]"
                         />
-                        <div className="flex justify-between text-[10px] font-mono text-gray-400">
+                        <div className="flex justify-between text-[10px] font-mono text-gray-600">
                           <span>Ringan (Rp 30rb)</span>
                           <span>Bongkar Total + Buang Puing (Rp 100rb)</span>
                         </div>
@@ -610,20 +610,20 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={catKusenEnabled}
                           onChange={(e) => setCatKusenEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-kusen" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Cat Kusen Pintu
                         </label>
                       </div>
-                      <span className="font-mono text-xs text-gray-500">
+                      <span className="font-mono text-xs text-gray-700">
                         Vol: {volumeCatKusen.toFixed(2)} m'
                       </span>
                     </div>
 
                     {catKusenEnabled && (
                       <div className="space-y-2 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Cat Kusen:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(catKusenPrice)}/m'</span>
                         </div>
@@ -636,7 +636,7 @@ export default function InteriorMepCalculator() {
                           onChange={(e) => setCatKusenPrice(parseInt(e.target.value))}
                           className="w-full accent-[#C89A2B]"
                         />
-                        <div className="flex justify-between text-[10px] font-mono text-gray-400">
+                        <div className="flex justify-between text-[10px] font-mono text-gray-600">
                           <span>Sederhana (Rp 40rb)</span>
                           <span>Eksklusif (Rp 90rb)</span>
                         </div>
@@ -655,7 +655,7 @@ export default function InteriorMepCalculator() {
                   <h3 className="font-sans font-bold text-[#16233A] text-lg uppercase tracking-wide">
                     Tahap 4: Mekanikal, Elektrikal, Plumbing (MEP)
                   </h3>
-                  <p className="text-gray-500 text-xs mt-1">
+                  <p className="text-gray-700 text-xs mt-1">
                     Silakan tentukan kebutuhan titik saklar, stop kontak, lampu baru, dan exhaust fan untuk estimasi kelistrikan.
                   </p>
                 </div>
@@ -670,7 +670,7 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={pasangLampuEnabled}
                           onChange={(e) => setPasangLampuEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-lampu" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Pasang Lampu Baru
@@ -680,7 +680,7 @@ export default function InteriorMepCalculator() {
                       {pasangLampuEnabled && (
                         <div className="flex items-center gap-3">
                           <div className="flex items-center space-x-1">
-                            <span className="text-xs text-gray-400">Jml:</span>
+                            <span className="text-xs text-gray-600">Jml:</span>
                             <input
                               type="number"
                               min="1"
@@ -704,7 +704,7 @@ export default function InteriorMepCalculator() {
 
                     {pasangLampuEnabled && (
                       <div className="space-y-1.5 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Material Toko:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(lampuPrice)}/unit</span>
                         </div>
@@ -730,7 +730,7 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={saklarEnabled}
                           onChange={(e) => setSaklarEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-saklar" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Saklar & Stop Kontak
@@ -739,7 +739,7 @@ export default function InteriorMepCalculator() {
 
                       {saklarEnabled && (
                         <div className="flex items-center space-x-1">
-                          <span className="text-xs text-gray-400">Jml:</span>
+                          <span className="text-xs text-gray-600">Jml:</span>
                           <input
                             type="number"
                             min="1"
@@ -747,14 +747,14 @@ export default function InteriorMepCalculator() {
                             onChange={(e) => setSaklarCount(Math.max(1, parseInt(e.target.value) || 0))}
                             className="w-16 px-2 py-1 border border-gray-200 rounded font-mono text-xs text-right"
                           />
-                          <span className="text-xs text-gray-400 pl-1">Unit</span>
+                          <span className="text-xs text-gray-600 pl-1">Unit</span>
                         </div>
                       )}
                     </div>
 
                     {saklarEnabled && (
                       <div className="space-y-1.5 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Saklar:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(saklarPrice)}/unit</span>
                         </div>
@@ -780,7 +780,7 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={exhaustEnabled}
                           onChange={(e) => setExhaustEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-exhaust" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Exhaust Fan Dinding/Plafon
@@ -789,7 +789,7 @@ export default function InteriorMepCalculator() {
 
                       {exhaustEnabled && (
                         <div className="flex items-center space-x-1">
-                          <span className="text-xs text-gray-400">Jml:</span>
+                          <span className="text-xs text-gray-600">Jml:</span>
                           <input
                             type="number"
                             min="1"
@@ -797,14 +797,14 @@ export default function InteriorMepCalculator() {
                             onChange={(e) => setExhaustCount(Math.max(1, parseInt(e.target.value) || 0))}
                             className="w-16 px-2 py-1 border border-gray-200 rounded font-mono text-xs text-right"
                           />
-                          <span className="text-xs text-gray-400 pl-1">Unit</span>
+                          <span className="text-xs text-gray-600 pl-1">Unit</span>
                         </div>
                       )}
                     </div>
 
                     {exhaustEnabled && (
                       <div className="space-y-1.5 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Harga Exhaust:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(exhaustPrice)}/unit</span>
                         </div>
@@ -830,7 +830,7 @@ export default function InteriorMepCalculator() {
                           type="checkbox"
                           checked={instalasiListrikEnabled}
                           onChange={(e) => setInstalasiListrikEnabled(e.target.checked)}
-                          className="h-5 w-5 rounded border-gray-300 text-[#C89A2B] focus:ring-amber-500"
+                          className="h-5 w-5 rounded border-gray-300 text-[#9A721D] focus:ring-amber-500"
                         />
                         <label htmlFor="chk-kabel" className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">
                           Instalasi Listrik (Kabel & Pipa)
@@ -839,7 +839,7 @@ export default function InteriorMepCalculator() {
 
                       {instalasiListrikEnabled && (
                         <div className="flex items-center space-x-1">
-                          <span className="text-xs text-gray-400">Titik:</span>
+                          <span className="text-xs text-gray-600">Titik:</span>
                           <input
                             type="number"
                             min="1"
@@ -847,14 +847,14 @@ export default function InteriorMepCalculator() {
                             onChange={(e) => setInstalasiListrikCount(Math.max(1, parseInt(e.target.value) || 0))}
                             className="w-16 px-2 py-1 border border-gray-200 rounded font-mono text-xs text-right"
                           />
-                          <span className="text-xs text-gray-400 pl-1">ttk</span>
+                          <span className="text-xs text-gray-600 pl-1">ttk</span>
                         </div>
                       )}
                     </div>
 
                     {instalasiListrikEnabled && (
                       <div className="space-y-1.5 pt-2 border-t border-gray-100">
-                        <div className="flex justify-between items-center text-xs text-gray-500">
+                        <div className="flex justify-between items-center text-xs text-gray-700">
                           <span>Slider Jasa+Material:</span>
                           <span className="font-semibold text-emerald-600 font-mono">{formatIDR(instalasiListrikPrice)}/ttk</span>
                         </div>
@@ -883,7 +883,7 @@ export default function InteriorMepCalculator() {
                     <h3 className="font-sans font-bold text-[#16233A] text-lg uppercase tracking-wide">
                       REKAPITULASI ESTIMASI RAB INTERIOR & MEP
                     </h3>
-                    <p className="text-gray-500 text-xs mt-1">
+                    <p className="text-gray-700 text-xs mt-1">
                       Dokumen rekap otomatis berdasarkan ukuran ruang ({length}x{width}x{ceiling}m) dan spesifikasi pengerjaan yang dicentang.
                     </p>
                   </div>
@@ -901,8 +901,8 @@ export default function InteriorMepCalculator() {
 
                 {enabledItems.length === 0 ? (
                   <div className="text-center py-12 bg-white border border-dashed rounded-2xl" id="no-items-selected">
-                    <p className="text-gray-400 font-sans text-sm">Tidak ada pekerjaan yang dicentang di langkah sebelumnya.</p>
-                    <p className="text-xs text-gray-400 mt-1">Silakan kembali dan centang minimal satu item pekerjaan.</p>
+                    <p className="text-gray-600 font-sans text-sm">Tidak ada pekerjaan yang dicentang di langkah sebelumnya.</p>
+                    <p className="text-xs text-gray-600 mt-1">Silakan kembali dan centang minimal satu item pekerjaan.</p>
                   </div>
                 ) : (
                   <div className="overflow-x-auto bg-white border border-gray-200 rounded-xl shadow-sm" id="receipt-table-container">
@@ -934,14 +934,14 @@ export default function InteriorMepCalculator() {
                 {/* Grand Total Bar */}
                 <div className="bg-[#16233A] text-white p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 shadow-md" id="grand-total-bar">
                   <div className="text-center sm:text-left">
-                    <span className="font-mono text-[10px] text-[#C89A2B] uppercase tracking-wider block font-semibold">
+                    <span className="font-mono text-[10px] text-[#9A721D] uppercase tracking-wider block font-semibold">
                       ESTIMASI GRAND TOTAL KESELURUHAN
                     </span>
                     <span className="font-sans text-xs text-gray-300">
                       *Estimasi bersifat perkiraan awal acuan RAB
                     </span>
                   </div>
-                  <div className="text-2xl sm:text-3xl font-bold font-sans text-[#C89A2B]">
+                  <div className="text-2xl sm:text-3xl font-bold font-sans text-[#9A721D]">
                     {formatIDR(grandTotal)}
                   </div>
                 </div>
@@ -950,7 +950,7 @@ export default function InteriorMepCalculator() {
                   <button
                     id="btn-imep-reset-all"
                     onClick={resetAll}
-                    className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-gray-500 hover:text-red-500 bg-gray-100 hover:bg-red-50 rounded-lg transition-colors cursor-pointer"
+                    className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-gray-700 hover:text-red-500 bg-gray-100 hover:bg-red-50 rounded-lg transition-colors cursor-pointer"
                   >
                     <RefreshCw className="h-3.5 w-3.5" />
                     <span>Reset Ulang Form</span>
@@ -980,7 +980,7 @@ export default function InteriorMepCalculator() {
               <button
                 id="btn-imep-next"
                 onClick={handleNext}
-                className="bg-[#C89A2B] hover:bg-opacity-90 text-white px-6 py-3 rounded-xl font-semibold text-sm flex items-center space-x-1.5 transition-all cursor-pointer border-b-2 border-amber-800"
+                className="bg-[#C89A2B] hover:bg-opacity-90 text-[#16233A] px-6 py-3 rounded-xl font-semibold text-sm flex items-center space-x-1.5 transition-all cursor-pointer border-b-2 border-amber-800"
               >
                 <span>{step === 4 ? 'Lihat Hasil' : 'Berikutnya'}</span>
                 <ArrowRight className="h-4 w-4" />
@@ -1001,7 +1001,7 @@ export default function InteriorMepCalculator() {
                     });
                   }
                 }}
-                className="bg-[#C89A2B] hover:bg-opacity-95 text-white px-6 py-3 rounded-xl font-semibold text-sm flex items-center space-x-1.5 shadow-md cursor-pointer"
+                className="bg-[#C89A2B] hover:bg-opacity-95 text-[#16233A] px-6 py-3 rounded-xl font-semibold text-sm flex items-center space-x-1.5 shadow-md cursor-pointer"
               >
                 <span>Lanjut ke Form Survey</span>
                 <ArrowRight className="h-4 w-4" />

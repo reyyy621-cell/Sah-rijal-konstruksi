@@ -52,14 +52,14 @@ export default function Portfolio() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4" id="portfolio-header">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ DOKUMENTASI PROYEK
           </span>
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight">
             GALERI HASIL KARYA NYATA KAMI
           </h2>
           <div className="h-1.5 w-20 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+          <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
             Kumpulan dokumentasi foto fisik asli pembangunan rumah baru, renovasi ruko, tata ruang interior, dan kolam renang di wilayah Surabaya & sekitarnya.
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function Portfolio() {
                 >
                   {/* Knob */}
                   <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-[#16233A] border-4 border-white shadow-2xl flex items-center justify-center text-white cursor-ew-resize">
-                    <span className="text-[#C89A2B] font-extrabold text-base tracking-tighter">↔</span>
+                    <span className="text-[#9A721D] font-extrabold text-base tracking-tighter">↔</span>
                   </div>
                 </div>
 
@@ -117,7 +117,7 @@ export default function Portfolio() {
                   aria-label="Geser untuk melihat perbedaan Sebelum dan Sesudah"
                 />
               </div>
-              <p className="mt-4 font-mono text-[11px] text-gray-500 flex items-center gap-1.5 animate-pulse text-center">
+              <p className="mt-4 font-mono text-[11px] text-gray-700 flex items-center gap-1.5 animate-pulse text-center">
                 <span>◀ GESER SLIDER DI ATAS UNTUK MEMBANDINGKAN SEBELUM & SESUDAH ▶</span>
               </p>
             </div>
@@ -125,7 +125,7 @@ export default function Portfolio() {
             {/* Description Column */}
             <div className="lg:col-span-5 space-y-6" id="before-after-description">
               <div className="space-y-2">
-                <span className="text-[#C89A2B] font-mono font-bold text-xs uppercase tracking-widest block">
+                <span className="text-[#9A721D] font-mono font-bold text-xs uppercase tracking-widest block">
                   ✦ TRANSFORMASI KARYA NYATA
                 </span>
                 <h3 className="font-sans font-bold text-2xl sm:text-3xl text-[#16233A] uppercase tracking-tight leading-tight">
@@ -140,19 +140,19 @@ export default function Portfolio() {
 
               <div className="grid grid-cols-2 gap-4" id="before-after-specs">
                 <div className="bg-white p-3.5 rounded-xl border border-gray-150">
-                  <span className="text-[10px] font-mono text-gray-400 block uppercase">Scope Pekerjaan</span>
+                  <span className="text-[10px] font-mono text-gray-600 block uppercase">Scope Pekerjaan</span>
                   <span className="font-sans font-bold text-xs sm:text-sm text-[#16233A] uppercase">Renovasi Rumah Lama</span>
                 </div>
                 <div className="bg-white p-3.5 rounded-xl border border-gray-150">
-                  <span className="text-[10px] font-mono text-gray-400 block uppercase">Lokasi Proyek</span>
+                  <span className="text-[10px] font-mono text-gray-600 block uppercase">Lokasi Proyek</span>
                   <span className="font-sans font-bold text-xs sm:text-sm text-[#16233A] uppercase">Gubeng, Surabaya</span>
                 </div>
                 <div className="bg-white p-3.5 rounded-xl border border-gray-150">
-                  <span className="text-[10px] font-mono text-gray-400 block uppercase">Hasil Akhir</span>
+                  <span className="text-[10px] font-mono text-gray-600 block uppercase">Hasil Akhir</span>
                   <span className="font-sans font-bold text-xs sm:text-sm text-[#16233A] uppercase">Rumah Modern Tropis</span>
                 </div>
                 <div className="bg-white p-3.5 rounded-xl border border-gray-150">
-                  <span className="text-[10px] font-mono text-gray-400 block uppercase">Sertifikat Mutu</span>
+                  <span className="text-[10px] font-mono text-gray-600 block uppercase">Sertifikat Mutu</span>
                   <span className="font-sans font-bold text-xs sm:text-sm text-emerald-600 uppercase">Garansi 10 Tahun</span>
                 </div>
               </div>
@@ -219,10 +219,10 @@ export default function Portfolio() {
 
               {/* Descriptions */}
               <div className="p-5 space-y-1">
-                <span className="font-mono text-[10px] text-[#C89A2B] uppercase tracking-wider font-semibold">
+                <span className="font-mono text-[10px] text-[#9A721D] uppercase tracking-wider font-semibold">
                   {item.category}
                 </span>
-                <h4 className="font-sans font-bold text-sm text-[#16233A] line-clamp-1 group-hover:text-[#C89A2B] transition-colors duration-200 uppercase">
+                <h4 className="font-sans font-bold text-sm text-[#16233A] line-clamp-1 group-hover:text-[#9A721D] transition-colors duration-200 uppercase">
                   {item.title}
                 </h4>
               </div>
@@ -233,7 +233,7 @@ export default function Portfolio() {
         {/* Empty state */}
         {filteredPortfolio.length === 0 && (
           <div className="text-center py-16 bg-gray-50 rounded-2xl border border-dashed" id="portfolio-empty">
-            <p className="text-gray-400 font-sans text-sm">Tidak ditemukan proyek untuk kategori ini.</p>
+            <p className="text-gray-600 font-sans text-sm">Tidak ditemukan proyek untuk kategori ini.</p>
           </div>
         )}
 
@@ -297,7 +297,7 @@ export default function Portfolio() {
             className="text-center mt-6 text-white max-w-2xl px-4" 
             onClick={(e) => e.stopPropagation()}
           >
-            <span className="inline-block bg-[#C89A2B] text-white font-mono text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded mb-2">
+            <span className="inline-block bg-[#C89A2B]  text-[#16233A] font-mono text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded mb-2">
               {filteredPortfolio[lightboxIndex].category}
             </span>
             <h3 className="font-sans font-bold text-lg sm:text-xl text-white uppercase tracking-wide">

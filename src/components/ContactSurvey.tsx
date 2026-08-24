@@ -95,14 +95,14 @@ export default function ContactSurvey() {
           {/* Column 1: Call to Action Details */}
           <div className="lg:col-span-5 space-y-8" id="survey-info-panel">
             <div className="space-y-4">
-              <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+              <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
                 ✦ FORMULIR KONSULTASI & SURVEY LOKASI
               </span>
               <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight leading-tight">
                 Wujudkan Rumah Impian Anda Bersama Kami
               </h2>
               <div className="h-1.5 w-20 bg-[#C89A2B] rounded-full" />
-              <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+              <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
                 Sebelum survey lokasi dilaksanakan gratis di wilayah Surabaya, Sidoarjo, dan Gresik, silakan lengkapi formulir survey kebutuhan di samping.
               </p>
             </div>
@@ -110,32 +110,32 @@ export default function ContactSurvey() {
             {/* Guaranteed Badges */}
             <div className="space-y-4" id="survey-perks-list">
               <div className="flex items-start space-x-3.5 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#C89A2B] shrink-0">
+                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#9A721D] shrink-0">
                   <Check className="h-5 w-5" />
                 </div>
                 <div>
                   <h4 className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">100% Survey Gratis</h4>
-                  <p className="font-sans text-xs text-gray-500 mt-1">Kami melakukan pengukuran detail ke lahan Anda tanpa dipungut biaya transportasi maupun jasa.</p>
+                  <p className="font-sans text-xs text-gray-700 mt-1">Kami melakukan pengukuran detail ke lahan Anda tanpa dipungut biaya transportasi maupun jasa.</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3.5 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#C89A2B] shrink-0">
+                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#9A721D] shrink-0">
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
                   <h4 className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">Area Surabaya, Sidoarjo, Gresik</h4>
-                  <p className="font-sans text-xs text-gray-500 mt-1">Tim surveyor bersertifikat kami berdomisili lokal untuk kecepatan penjadwalan survey lapangan.</p>
+                  <p className="font-sans text-xs text-gray-700 mt-1">Tim surveyor bersertifikat kami berdomisili lokal untuk kecepatan penjadwalan survey lapangan.</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3.5 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#C89A2B] shrink-0">
+                <div className="bg-[#C89A2B]/10 p-2 rounded-lg text-[#9A721D] shrink-0">
                   <ClipboardList className="h-5 w-5" />
                 </div>
                 <div>
                   <h4 className="font-sans font-bold text-sm text-[#16233A] uppercase tracking-wide">Penyusunan RAB Akurat</h4>
-                  <p className="font-sans text-xs text-gray-500 mt-1">Setelah survey dilaksanakan, kami menyusun draf RAB resmi dan denah ruangan gratis.</p>
+                  <p className="font-sans text-xs text-gray-700 mt-1">Setelah survey dilaksanakan, kami menyusun draf RAB resmi dan denah ruangan gratis.</p>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function ContactSurvey() {
                   rel="noopener noreferrer"
                   className="bg-[#16233A] hover:bg-[#233554] text-white px-4 py-2 rounded-lg font-sans text-xs font-bold flex items-center gap-1.5 transition-colors"
                 >
-                  <Phone className="h-3.5 w-3.5 text-[#C89A2B]" />
+                  <Phone className="h-3.5 w-3.5 text-[#9A721D]" />
                   <span>Admin 1: {COMPANY_INFO.whatsapp1}</span>
                 </a>
                 <a
@@ -163,7 +163,7 @@ export default function ContactSurvey() {
                   rel="noopener noreferrer"
                   className="bg-[#16233A] hover:bg-[#233554] text-white px-4 py-2 rounded-lg font-sans text-xs font-bold flex items-center gap-1.5 transition-colors"
                 >
-                  <Phone className="h-3.5 w-3.5 text-[#C89A2B]" />
+                  <Phone className="h-3.5 w-3.5 text-[#9A721D]" />
                   <span>Admin 2: {COMPANY_INFO.whatsapp2}</span>
                 </a>
               </div>
@@ -314,17 +314,17 @@ export default function ContactSurvey() {
                 <div className="border-2 border-dashed border-gray-200 hover:border-[#C89A2B] rounded-2xl p-4 transition-colors bg-white flex items-center justify-center cursor-pointer relative">
                   <input
                     id="form-photo"
-                    type="file"
+                    type="file" aria-label="Upload Foto Lokasi"
                     accept="image/*"
                     onChange={handleFileChange}
                     className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
                   />
                   <div className="text-center space-y-1">
-                    <ImageIcon className="h-6 w-6 text-[#C89A2B] mx-auto" />
+                    <ImageIcon className="h-6 w-6 text-[#9A721D] mx-auto" />
                     <p className="font-sans text-xs font-semibold text-[#16233A]">
                       {photoName ? `Terpilih: ${photoName}` : 'Klik / Drag untuk melampirkan foto'}
                     </p>
-                    <p className="font-sans text-[10px] text-gray-400">Format PNG, JPG atau JPEG up to 5MB</p>
+                    <p className="font-sans text-[10px] text-gray-600">Format PNG, JPG atau JPEG up to 5MB</p>
                   </div>
                 </div>
               </div>
@@ -351,7 +351,7 @@ export default function ContactSurvey() {
                   id="btn-submit-survey-wa"
                   type="submit"
                   disabled={isSubmitted}
-                  className="w-full bg-[#C89A2B] hover:bg-opacity-90 disabled:bg-gray-400 text-white py-4 rounded-xl font-sans font-bold text-base shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center space-x-2.5 cursor-pointer border-b-2 border-amber-800"
+                  className="w-full bg-[#C89A2B] hover:bg-opacity-90 disabled:bg-gray-400 text-[#16233A] py-4 rounded-xl font-sans font-bold text-base shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center space-x-2.5 cursor-pointer border-b-2 border-amber-800"
                 >
                   <Send className="h-5 w-5" />
                   <span>{isSubmitted ? 'Mengalihkan ke WhatsApp...' : 'Submit & Hubungi WhatsApp'}</span>

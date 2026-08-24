@@ -15,14 +15,14 @@ export default function Faq() {
         
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4" id="faq-header">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ TANYA JAWAB UMUM
           </span>
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight">
             FAQ SEPUTAR KONTRAKTOR & RAB
           </h2>
           <div className="h-1.5 w-20 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+          <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
             Menjawab keraguan Anda. Berikut informasi lengkap mengenai prosedur kerja, garansi, survey lapangan, dan metode pembayaran kami.
           </p>
         </div>
@@ -44,13 +44,13 @@ export default function Faq() {
                   className="w-full text-left p-5 sm:p-6 flex items-center justify-between gap-4 focus:outline-none cursor-pointer"
                 >
                   <div className="flex items-center space-x-3.5">
-                    <HelpCircle className="h-5 w-5 text-[#C89A2B] shrink-0" />
+                    <HelpCircle className="h-5 w-5 text-[#9A721D] shrink-0" />
                     <span className="font-sans font-bold text-sm sm:text-base text-[#16233A] tracking-wide uppercase">
                       {faq.question}
                     </span>
                   </div>
                   <div className={`p-1.5 rounded-lg transition-colors ${
-                    isOpen ? 'bg-[#16233A] text-white' : 'bg-gray-100 text-gray-400'
+                    isOpen ? 'bg-[#16233A] text-white' : 'bg-gray-100 text-gray-600'
                   }`}>
                     {isOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                   </div>

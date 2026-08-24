@@ -75,7 +75,7 @@ export default function Hero() {
               className="space-y-6"
             >
               {/* Badge */}
-              <div className="inline-flex items-center space-x-2 bg-[#C89A2B]/20 border border-[#C89A2B]/40 px-3 py-1.5 rounded-full text-[#C89A2B] text-xs font-mono uppercase tracking-widest">
+              <div className="inline-flex items-center space-x-2 bg-[#C89A2B]/20 border border-[#C89A2B]/40 px-3 py-1.5 rounded-full text-[#9A721D] text-xs font-mono uppercase tracking-widest">
                 <span>✦ PREMIUM CONTRACTOR SURABAYA</span>
               </div>
 
@@ -94,7 +94,7 @@ export default function Hero() {
                 <button
                   id="hero-cta-konsultasi"
                   onClick={() => handleCtaClick('survey-form-section')}
-                  className="w-full sm:w-auto bg-[#C89A2B] hover:bg-opacity-90 text-white font-sans font-semibold text-base px-8 py-4 rounded-md shadow-lg transition-all duration-200 cursor-pointer flex items-center justify-center space-x-2 border-b-2 border-amber-800"
+                  className="w-full sm:w-auto bg-[#C89A2B] hover:bg-opacity-90 text-[#16233A] font-sans font-semibold text-base px-8 py-4 rounded-md shadow-lg transition-all duration-200 cursor-pointer flex items-center justify-center space-x-2 border-b-2 border-amber-800"
                 >
                   <Calendar className="h-5 w-5" />
                   <span>Konsultasi & Survey Gratis</span>
@@ -104,7 +104,7 @@ export default function Hero() {
                   onClick={() => handleCtaClick('rab-calculator-section')}
                   className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-sans font-semibold text-base px-8 py-4 rounded-md border border-white/30 backdrop-blur-md transition-all duration-200 cursor-pointer flex items-center justify-center space-x-2"
                 >
-                  <Calculator className="h-5 w-5 text-[#C89A2B]" />
+                  <Calculator className="h-5 w-5 text-[#9A721D]" />
                   <span>Hitung RAB Sekarang</span>
                 </button>
               </div>

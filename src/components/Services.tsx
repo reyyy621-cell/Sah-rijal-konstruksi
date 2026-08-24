@@ -6,9 +6,9 @@ export default function Services() {
   const renderIcon = (iconName: string) => {
     const IconComponent = (Icons as any)[iconName];
     if (IconComponent) {
-      return <IconComponent className="h-8 w-8 text-[#C89A2B]" />;
+      return <IconComponent className="h-8 w-8 text-[#9A721D]" />;
     }
-    return <Icons.HelpCircle className="h-8 w-8 text-[#C89A2B]" />;
+    return <Icons.HelpCircle className="h-8 w-8 text-[#9A721D]" />;
   };
 
   const handleCtaClick = () => {
@@ -33,14 +33,14 @@ export default function Services() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4" id="services-header">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ LAYANAN UTAMA KAMI
           </span>
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight">
             SOLUSI SPESIALIS KONSTRUKSI HINGGA INTERIOR
           </h2>
           <div className="h-1.5 w-20 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+          <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
             Menghadirkan layanan terintegrasi dari tahap konsep arsitektur, perhitungan sipil yang aman, pengerjaan konstruksi di lapangan, hingga instalasi furnitur interior custom.
           </p>
         </div>
@@ -63,10 +63,10 @@ export default function Services() {
                 </div>
 
                 <div className="space-y-2">
-                  <h3 className="font-sans font-bold text-lg text-[#16233A] uppercase tracking-wide group-hover:text-[#C89A2B] transition-colors duration-200">
+                  <h3 className="font-sans font-bold text-lg text-[#16233A] uppercase tracking-wide group-hover:text-[#9A721D] transition-colors duration-200">
                     {s.title}
                   </h3>
-                  <p className="font-sans text-sm text-gray-500 leading-relaxed">
+                  <p className="font-sans text-sm text-gray-700 leading-relaxed">
                     {s.description}
                   </p>
                 </div>
@@ -74,13 +74,13 @@ export default function Services() {
 
               {/* Action link */}
               <div className="pt-6 mt-6 border-t border-gray-100 flex items-center justify-between">
-                <span className="font-mono text-xs text-gray-400 group-hover:text-[#16233A] transition-colors duration-200 uppercase">
+                <span className="font-mono text-xs text-gray-600 group-hover:text-[#16233A] transition-colors duration-200 uppercase">
                   SAH RIJAL KONSTRUKSI
                 </span>
                 <button
                   id={`btn-service-consult-${s.id}`}
                   onClick={handleCtaClick}
-                  className="text-xs font-semibold text-[#C89A2B] hover:text-[#16233A] flex items-center gap-1 cursor-pointer group-hover:underline"
+                  className="text-xs font-semibold text-[#9A721D] hover:text-[#16233A] flex items-center gap-1 cursor-pointer group-hover:underline"
                 >
                   <span>Konsultasikan</span>
                   <Icons.ArrowUpRight className="h-4 w-4" />

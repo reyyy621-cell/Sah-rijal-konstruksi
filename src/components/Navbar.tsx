@@ -87,8 +87,8 @@ export default function Navbar() {
                 to={link.path}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   location.pathname === link.path
-                    ? 'text-[#C89A2B]'
-                    : 'text-white hover:text-[#C89A2B]'
+                    ? 'text-[#9A721D]'
+                    : 'text-white hover:text-[#9A721D]'
                 }`}
               >
                 {link.name}
@@ -100,7 +100,7 @@ export default function Navbar() {
             <button
               id="nav-cta-whatsapp"
               onClick={handleCtaClick}
-              className="bg-[#C89A2B] hover:bg-opacity-90 text-white font-medium text-sm px-5 py-2.5 rounded-md flex items-center space-x-2 transition-all duration-200 cursor-pointer"
+              className="bg-[#C89A2B] hover:bg-opacity-90 text-[#16233A] font-medium text-sm px-5 py-2.5 rounded-md flex items-center space-x-2 transition-all duration-200 cursor-pointer"
             >
               <Phone className="h-4 w-4" />
               <span>Konsultasi Gratis</span>
@@ -131,8 +131,8 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className={`block w-full text-left py-2 text-base font-medium border-b border-gray-800 ${
                 location.pathname === link.path
-                  ? 'text-[#C89A2B]'
-                  : 'text-white hover:text-[#C89A2B]'
+                  ? 'text-[#9A721D]'
+                  : 'text-white hover:text-[#9A721D]'
               }`}
             >
               {link.name}
@@ -141,7 +141,7 @@ export default function Navbar() {
           <button
             id="mobile-nav-cta-whatsapp"
             onClick={handleCtaClick}
-            className="w-full text-center bg-[#C89A2B] text-white py-3 rounded-md font-medium flex items-center justify-center space-x-2 shadow-md hover:bg-opacity-95 cursor-pointer mt-4"
+            className="w-full text-center bg-[#C89A2B]  text-[#16233A] py-3 rounded-md font-medium flex items-center justify-center space-x-2 shadow-md hover:bg-opacity-95 cursor-pointer mt-4"
           >
             <Phone className="h-5 w-5" />
             <span>Formulir Survey</span>

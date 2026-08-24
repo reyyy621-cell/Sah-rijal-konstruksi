@@ -10,14 +10,14 @@ export default function DesignToReality() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ PROSES DARI DESAIN KE REALISASI
           </span>
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight">
             Dari 3D Model → Rendering → Hasil Konstruksi
           </h2>
           <div className="h-1.5 w-20 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+          <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
             Saksikan bagaimana kami mewujudkan konsep desain digital Anda menjadi bangunan nyata dengan tingkat presisi dan akurasi tinggi.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function DesignToReality() {
               </div>
               <div>
                 <h3 className="font-sans font-bold text-lg text-[#16233A] leading-tight">1. 3D Model</h3>
-                <span className="font-mono text-[10px] text-gray-500 uppercase tracking-widest">Konsep Desain Digital</span>
+                <span className="font-mono text-[10px] text-gray-700 uppercase tracking-widest">Konsep Desain Digital</span>
               </div>
             </div>
             
@@ -62,11 +62,11 @@ export default function DesignToReality() {
           <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col h-full relative z-10 hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center space-x-3 mb-6">
               <div className="bg-[#C89A2B]/10 p-3 rounded-xl">
-                <ImageIcon className="h-6 w-6 text-[#C89A2B]" />
+                <ImageIcon className="h-6 w-6 text-[#9A721D]" />
               </div>
               <div>
                 <h3 className="font-sans font-bold text-lg text-[#16233A] leading-tight">2. Rendering</h3>
-                <span className="font-mono text-[10px] text-gray-500 uppercase tracking-widest">Visualisasi Realistis</span>
+                <span className="font-mono text-[10px] text-gray-700 uppercase tracking-widest">Visualisasi Realistis</span>
               </div>
             </div>
             
@@ -87,7 +87,7 @@ export default function DesignToReality() {
           <div className="bg-[#16233A] text-white rounded-2xl p-6 border border-transparent flex flex-col h-full relative z-10 hover:shadow-lg transition-shadow duration-300">
             <div className="flex items-center space-x-3 mb-6">
               <div className="bg-white/10 p-3 rounded-xl">
-                <Building2 className="h-6 w-6 text-[#C89A2B]" />
+                <Building2 className="h-6 w-6 text-[#9A721D]" />
               </div>
               <div>
                 <h3 className="font-sans font-bold text-lg text-white leading-tight">3. Hasil Konstruksi</h3>

@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -36,7 +37,7 @@ function PageWrapper({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <BrowserRouter>
-      <div id="root-app-layout" className="bg-white min-h-screen text-gray-800 selection:bg-[#C89A2B] selection:text-white">
+      <div id="root-app-layout" className="bg-white min-h-screen text-gray-800 selection:bg-[#C89A2B] selection:text-[#16233A]">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

@@ -19,14 +19,14 @@ export default function Testimonial() {
         
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4" id="testimonial-header">
-          <span className="text-[#C89A2B] font-mono font-semibold text-xs uppercase tracking-widest block">
+          <span className="text-[#9A721D] font-mono font-semibold text-xs uppercase tracking-widest block">
             ✦ TESTIMONIAL KLIEN ASLI
           </span>
           <h2 className="font-sans font-bold text-3xl sm:text-4xl text-[#16233A] uppercase tracking-tight">
             APA KATA MEREKA YANG TELAH MEMBANGUN?
           </h2>
           <div className="h-1.5 w-20 bg-[#C89A2B] mx-auto rounded-full" />
-          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+          <p className="font-sans text-gray-700 text-sm sm:text-base leading-relaxed">
             Kepercayaan adalah prioritas nomor satu. Berikut ulasan jujur dari para pemilik rumah, ruko, dan kost yang telah mempercayakan impiannya kepada kami.
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Testimonial() {
         <div className="relative bg-gray-50 border border-gray-150 rounded-3xl p-8 sm:p-12 shadow-md" id="testimonial-slider-container">
           
           {/* Quote icon background decoration */}
-          <div className="absolute top-6 right-8 text-[#C89A2B]/10">
+          <div className="absolute top-6 right-8 text-[#9A721D]/10">
             <Quote className="h-24 w-24 transform rotate-180" />
           </div>
 
@@ -43,7 +43,7 @@ export default function Testimonial() {
             {/* Stars Rating */}
             <div className="flex space-x-1" id="testimonial-stars-bar">
               {Array.from({ length: TESTIMONIALS[activeIndex].rating }).map((_, i) => (
-                <Star key={i} className="h-5 w-5 fill-[#C89A2B] text-[#C89A2B]" />
+                <Star key={i} className="h-5 w-5 fill-[#C89A2B] text-[#9A721D]" />
               ))}
             </div>
 
@@ -61,7 +61,7 @@ export default function Testimonial() {
                 <h4 id="testimonial-user-name" className="font-sans font-bold text-sm sm:text-base text-[#16233A]">
                   {TESTIMONIALS[activeIndex].name}
                 </h4>
-                <p id="testimonial-user-role" className="font-sans text-xs text-[#C89A2B] font-semibold">
+                <p id="testimonial-user-role" className="font-sans text-xs text-[#9A721D] font-semibold">
                   {TESTIMONIALS[activeIndex].role}
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function Testimonial() {
                 className="bg-[#16233A] hover:bg-[#233554] text-white p-2.5 rounded-full shadow-sm transition-all cursor-pointer"
                 aria-label="Next Testimonial"
               >
-                <ChevronRight className="h-5 w-5 text-[#C89A2B]" />
+                <ChevronRight className="h-5 w-5 text-[#9A721D]" />
               </button>
             </div>
           </div>
