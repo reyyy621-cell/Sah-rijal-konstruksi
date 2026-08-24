@@ -6,7 +6,7 @@ export const COMPANY_INFO = {
   address: "jln.ceger raya, kec.pondok aren",
   whatsapp1: "+6283804081694",
   whatsapp2: "+6287784270674",
-  email: "ptbintangutamaperkasasejahtera@gmail.com",
+  email: "rizalhay1@gmail.com",
   serviceAreas: ["Surabaya", "Sidoarjo", "Gresik", "Jawa Timur"],
   instagram: "https://www.instagram.com/berkah_rizal_konstruksi?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==",
   tiktok: "https://www.tiktok.com/@brkkonstruksi.rizal?is_from_webapp=1&sender_device=pc"
