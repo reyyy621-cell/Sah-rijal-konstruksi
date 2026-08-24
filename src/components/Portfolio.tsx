@@ -74,7 +74,7 @@ export default function Portfolio() {
                 
                 {/* AFTER IMAGE (Background) */}
                 <img 
-                  src="https://res.cloudinary.com/ypvr42cl/image/upload/v1787577549/10c1e2bd-7667-4544-b90f-7357a79163d6.png" 
+                  src="https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577549/10c1e2bd-7667-4544-b90f-7357a79163d6.png" 
                   alt="Sesudah Renovasi" 
                   className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
                   referrerPolicy="no-referrer"
@@ -85,7 +85,7 @@ export default function Portfolio() {
 
                 {/* BEFORE IMAGE (Clipped Layer - no CSS transition on clip-path so it tracks perfectly and buttery smooth) */}
                 <img 
-                  src="https://res.cloudinary.com/ypvr42cl/image/upload/v1787577488/287b37af-3a33-49a0-a3b7-a788e48467a2.png" 
+                  src="https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577488/287b37af-3a33-49a0-a3b7-a788e48467a2.png" 
                   alt="Sebelum Renovasi" 
                   className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
                   style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}

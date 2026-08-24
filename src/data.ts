@@ -102,175 +102,175 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: "p1",
     title: "Pekerjaan Maintenance",
     category: "Maintenance",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787575191/a654b953-410d-4af2-8671-632fbf358a4f.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787575191/a654b953-410d-4af2-8671-632fbf358a4f.png"
   },
   {
     id: "p2",
     title: "Pekerjaan Maintenance",
     category: "Maintenance",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576696/76cc0b43-9a48-427a-b1bf-690dc90a518c.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576696/76cc0b43-9a48-427a-b1bf-690dc90a518c.png"
   },
   {
     id: "p3",
     title: "Pekerjaan Atap/Genteng",
     category: "Atap & Genteng",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787575882/958f65d4-da0c-4418-a2d7-bdb70b070658.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787575882/958f65d4-da0c-4418-a2d7-bdb70b070658.png"
   },
   {
     id: "p4",
     title: "Pekerjaan Atap/Genteng",
     category: "Atap & Genteng",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787575895/bcd54f4d-4474-43df-96dc-3900e222a82d.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787575895/bcd54f4d-4474-43df-96dc-3900e222a82d.png"
   },
   {
     id: "p5",
     title: "Pekerjaan Atap/Genteng",
     category: "Atap & Genteng",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787575953/f2b422e9-589b-4112-a566-c71cca101f33.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787575953/f2b422e9-589b-4112-a566-c71cca101f33.png"
   },
   {
     id: "p6",
     title: "Pekerjaan Atap/Genteng",
     category: "Atap & Genteng",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576557/33af8dcb-47db-4f5b-b84c-19dd7f857ca7.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576557/33af8dcb-47db-4f5b-b84c-19dd7f857ca7.png"
   },
   {
     id: "p7",
     title: "Pekerjaan Atap/Genteng",
     category: "Atap & Genteng",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576580/1de4693f-5388-4826-a515-ce9ec65c1667.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576580/1de4693f-5388-4826-a515-ce9ec65c1667.png"
   },
   {
     id: "p8",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576012/50f59448-3949-451a-baad-8234856ce54d.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576012/50f59448-3949-451a-baad-8234856ce54d.png"
   },
   {
     id: "p9",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576759/f776425a-97c5-40b3-bf5a-d8f3c310ef43.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576759/f776425a-97c5-40b3-bf5a-d8f3c310ef43.png"
   },
   {
     id: "p10",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576028/c1018851-2236-428d-ab32-330614d12f2e.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576028/c1018851-2236-428d-ab32-330614d12f2e.png"
   },
   {
     id: "p11",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576313/46eb0c55-9615-4201-aa56-5dd6f547636f.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576313/46eb0c55-9615-4201-aa56-5dd6f547636f.png"
   },
   {
     id: "p12",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576678/912c2710-ea38-47dc-99e2-782c08488f1f.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576678/912c2710-ea38-47dc-99e2-782c08488f1f.png"
   },
   {
     id: "p13",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576522/3205c998-e2bd-4e3c-be39-7d021cf60a6d.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576522/3205c998-e2bd-4e3c-be39-7d021cf60a6d.png"
   },
   {
     id: "p14",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576526/de5c2d26-8d82-4d16-9311-738d9022ef52.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576526/de5c2d26-8d82-4d16-9311-738d9022ef52.png"
   },
   {
     id: "p15",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576540/6c4f36dd-c086-4c18-8c54-fb07e66053de.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576540/6c4f36dd-c086-4c18-8c54-fb07e66053de.png"
   },
   {
     id: "p16",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576843/b2b741c6-456f-4f42-a6bb-1ba99490443d.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576843/b2b741c6-456f-4f42-a6bb-1ba99490443d.png"
   },
   {
     id: "p17",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576859/17caca0e-4aaa-4fd7-a8a3-cb61f3576863.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576859/17caca0e-4aaa-4fd7-a8a3-cb61f3576863.png"
   },
   {
     id: "p18",
     title: "Desain Arsitektur",
     category: "Desain Arsitektur",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576875/2682c84b-eb60-4a94-8ed6-a2bd9739dc15.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576875/2682c84b-eb60-4a94-8ed6-a2bd9739dc15.png"
   },
   {
     id: "p19",
     title: "Pekerjaan Tangga",
     category: "Tangga",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576589/7a2b94b3-6655-45d6-8bb2-dce392f5b60b.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576589/7a2b94b3-6655-45d6-8bb2-dce392f5b60b.png"
   },
   {
     id: "p20",
     title: "Waterproofing Serat Fiber, Dak Rembes",
     category: "Waterproofing Serat Fiber, Dak Rembes",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576601/13cb4e8a-12d2-453c-9bfa-fccc754d2c3c.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576601/13cb4e8a-12d2-453c-9bfa-fccc754d2c3c.png"
   },
   {
     id: "p21",
     title: "Waterproofing Serat Fiber, Dak Rembes",
     category: "Waterproofing Serat Fiber, Dak Rembes",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576609/daa30833-7598-4917-98e0-da2250596d88.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576609/daa30833-7598-4917-98e0-da2250596d88.png"
   },
   {
     id: "p22",
     title: "Proyek Gudang Penyimpanan",
     category: "Gudang",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577219/2e8c7aaf-7f5d-48c8-a534-744182057ed4.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577219/2e8c7aaf-7f5d-48c8-a534-744182057ed4.png"
   },
   {
     id: "p23",
     title: "Proyek Gudang Penyimpanan",
     category: "Gudang",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576923/f7c7ed28-6a9d-4e18-aeec-7fdf86ce3dc6.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576923/f7c7ed28-6a9d-4e18-aeec-7fdf86ce3dc6.png"
   },
   {
     id: "p24",
     title: "Proyek Gudang Penyimpanan",
     category: "Gudang",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577044/8890c6de-b420-43c0-a661-bdb0feb4c85e.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577044/8890c6de-b420-43c0-a661-bdb0feb4c85e.png"
   },
   {
     id: "p25",
     title: "Proyek Gudang Penyimpanan",
     category: "Gudang",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787576958/fac25997-d982-40fc-98dc-2f0bdbf0a316.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787576958/fac25997-d982-40fc-98dc-2f0bdbf0a316.png"
   },
   {
     id: "p26",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577266/a306b779-87b3-4739-b2e7-3b15f75c9deb.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577266/a306b779-87b3-4739-b2e7-3b15f75c9deb.png"
   },
   {
     id: "p27",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577326/fdf55a16-e41b-4f14-9f90-4ac699081243.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577326/fdf55a16-e41b-4f14-9f90-4ac699081243.png"
   },
   {
     id: "p28",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577488/287b37af-3a33-49a0-a3b7-a788e48467a2.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577488/287b37af-3a33-49a0-a3b7-a788e48467a2.png"
   },
   {
     id: "p29",
     title: "Proyek Renovasi",
     category: "Renovasi",
-    image: "https://res.cloudinary.com/ypvr42cl/image/upload/v1787577549/10c1e2bd-7667-4544-b90f-7357a79163d6.png"
+    image: "https://res.cloudinary.com/ypvr42cl/image/upload/w_1200,q_auto,f_auto/v1787577549/10c1e2bd-7667-4544-b90f-7357a79163d6.png"
   }
 ];
 

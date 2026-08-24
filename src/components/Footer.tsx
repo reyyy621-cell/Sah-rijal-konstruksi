@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-6" id="footer-col-identity">
             <div className="flex items-center cursor-pointer" onClick={handleScrollToTop}>
               <img 
-                src="https://res.cloudinary.com/di6ziqvtp/image/upload/v1787484701/1da9798d-993b-4621-8a34-f809eca3a92b.png" 
+                src="https://res.cloudinary.com/di6ziqvtp/image/upload/w_1200,q_auto,f_auto/v1787484701/1da9798d-993b-4621-8a34-f809eca3a92b.png" 
                 alt="Sah Rijal Konstruksi Logo" 
                 className="h-12 w-auto object-contain" 
               />
